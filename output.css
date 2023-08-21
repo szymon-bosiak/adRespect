@@ -1071,6 +1071,10 @@ video {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'assets\/Photo\.jpg\'\)\] {
+  background-image: url('assets/Photo.jpg');
+}
+
 .from-beige {
   --tw-gradient-from: hsla(27, 41%, 77%, 1) var(--tw-gradient-from-position);
   --tw-gradient-to: hsla(27, 41%, 77%, 0) var(--tw-gradient-to-position);
@@ -1624,6 +1628,10 @@ video {
     background-image: url('../assets/Layer.jpg');
   }
 
+  .sm\:bg-\[url\(\'assets\/Layer\.jpg\'\)\] {
+    background-image: url('assets/Layer.jpg');
+  }
+
   .sm\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1701,6 +1709,10 @@ video {
 
   .md\:bg-\[url\(\'\.\.\/assets\/Layer\.jpg\'\)\] {
     background-image: url('../assets/Layer.jpg');
+  }
+
+  .md\:bg-\[url\(\'assets\/Layer\.jpg\'\)\] {
+    background-image: url('assets/Layer.jpg');
   }
 }
 
