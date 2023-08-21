@@ -1,0 +1,14 @@
+{
+  "name": "adrespect",
+  "version": "1.0.0",
+  "description": "task project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Szymon Bosiak",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
