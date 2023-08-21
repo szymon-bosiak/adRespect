@@ -1315,6 +1315,11 @@ video {
   color: hsla(27, 31%, 94%, 1);
 }
 
+.text-slate-100 {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
 .text-white {
   color: hsla(0, 0%, 100%, 1);
 }
